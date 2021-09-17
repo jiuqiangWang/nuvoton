@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\startup_nuc029xan.o"
+".\objects\system_nuc029xan.o"
+".\objects\systick.o"
+".\objects\flash.o"
+".\objects\usart0.o"
+".\objects\acmp.o"
+".\objects\adc.o"
+".\objects\clk.o"
+".\objects\ebi.o"
+".\objects\fmc.o"
+".\objects\gpio.o"
+".\objects\i2c.o"
+".\objects\pwm.o"
+".\objects\retarget.o"
+".\objects\spi.o"
+".\objects\sys.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\wdt.o"
+".\objects\wwdt.o"
+--strict --scatter ".\Objects\nuc029tan_demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\nuc029tan_demo.map" -o .\Objects\nuc029tan_demo.axf

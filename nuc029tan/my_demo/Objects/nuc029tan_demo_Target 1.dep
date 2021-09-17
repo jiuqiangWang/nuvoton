@@ -1,0 +1,461 @@
+Dependencies for Project 'nuc029tan_demo', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\User\main.c)(0x6143EBC3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (User\NUC029XAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+I (User\systick.h)(0x60CFE6BC)
+I (User\Flash.h)(0x60F4C2D3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (User\Usart0.h)(0x6143E99A)
+F (.\User\startup_NUC029xAN.s)(0x60F24F63)(--cpu Cortex-M0 -g --apcs=interwork -IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include--pd "__UVISION_VERSION SETA 534"--list .\listings\startup_nuc029xan.lst --xref -o .\objects\startup_nuc029xan.o --depend .\objects\startup_nuc029xan.d)
+F (.\User\system_NUC029xAN.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\system_nuc029xan.o --omf_browse .\objects\system_nuc029xan.crf --depend .\objects\system_nuc029xan.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\User\systick.c)(0x6143E782)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (User\systick.h)(0x60CFE6BC)
+I (User\NUC029XAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\User\Flash.c)(0x60EF8903)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (User\flash.h)(0x60F4C2D3)
+I (User\NUC029XAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (.\User\Usart0.c)(0x6143E99A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\usart0.o --omf_browse .\objects\usart0.crf --depend .\objects\usart0.d)
+I (User\Usart0.h)(0x6143E99A)
+I (User\NUC029XAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\acmp.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\acmp.o --omf_browse .\objects\acmp.crf --depend .\objects\acmp.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\adc.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\clk.c)(0x6143E7A8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\ebi.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\ebi.o --omf_browse .\objects\ebi.crf --depend .\objects\ebi.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\fmc.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\fmc.o --omf_browse .\objects\fmc.crf --depend .\objects\fmc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\gpio.c)(0x6100C0BB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\i2c.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\pwm.c)(0x60D19F13)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\retarget.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\spi.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\sys.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\timer.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\uart.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\wdt.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\wdt.o --omf_browse .\objects\wdt.crf --depend .\objects\wdt.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
+F (.\StdDriver\src\wwdt.c)(0x60069876)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\StdDriver\inc -I .\User -I .\CMSIS\Include-IC:\Users\Administrator\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.11\Device\NUC029AN\Include-D__UVISION_VERSION="534"-o .\objects\wwdt.o --omf_browse .\objects\wwdt.crf --depend .\objects\wwdt.d)
+I (.\User\NUC029xAN.h)(0x60069876)
+I (.\CMSIS\Include\core_cm0.h)(0x60069876)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\CMSIS\Include\core_cmInstr.h)(0x60069876)
+I (.\CMSIS\Include\core_cmFunc.h)(0x60069876)
+I (.\User\system_NUC029xAN.h)(0x6140435D)
+I (.\StdDriver\inc\sys.h)(0x60069876)
+I (.\StdDriver\inc\clk.h)(0x60069876)
+I (.\StdDriver\inc\adc.h)(0x60069876)
+I (.\StdDriver\inc\ebi.h)(0x60069876)
+I (.\StdDriver\inc\fmc.h)(0x60EF8FA9)
+I (.\StdDriver\inc\gpio.h)(0x60069876)
+I (.\StdDriver\inc\i2c.h)(0x60069876)
+I (.\StdDriver\inc\pwm.h)(0x60069876)
+I (.\StdDriver\inc\spi.h)(0x60069876)
+I (.\StdDriver\inc\timer.h)(0x60069876)
+I (.\StdDriver\inc\wdt.h)(0x60069876)
+I (.\StdDriver\inc\wwdt.h)(0x60069876)
+I (.\StdDriver\inc\uart.h)(0x60069876)
+I (.\StdDriver\inc\hdiv.h)(0x60069876)
+I (.\StdDriver\inc\acmp.h)(0x60069876)
